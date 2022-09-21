@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/CSD-Plumbing-&-Heating-Logo-sqr.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSD Plumbing & Heating</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <nav class="navbar">
+      <div class="navbar__container">
+        <img src="images/CSD-Plumbing-&-Heating-Logo.png" alt="logo-nav" />
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item"><a href="#home" class="navbar__links">Home</a></li>
+     <!--     <li class="navbar__item"><a href="/" class="navbar__links">About</a></li> -->
+          <li class="navbar__item"><a href="#contact" class="navbar__links">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="main">
+      <div id="home" class="main-container">
+        <div class="column-left">
+          <h1>Exceptional Plumbing & Heating Services</h1>
+          <p>Free Quotations. Experts in domestic plumbing and heating.</p>
+         <!-- <button>Get a Quote!</button> -->
+        </div>
+        <div class="column-left">
+          <img src="images/undraw_sweet_home_dkhr (2).svg" alt="undraw-home" class="undraw-image" />
+        </div>
+      </div>
+    </section>
+
+   <!-- <section class="about">
+      <div id="about"></div>
+    </section> -->
+
+
+      <div id="contact" class="contact-container">
+        <form action="https://formsubmit.co/ma.douglas@icloud.com" method="POST">
+          <h3>Contact Us</h3>
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Email" required>
+          <input type="text" id="phone" placeholder="Phone no." required>
+          <textarea id="message" rows="4" placeholder="How can we help?"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
