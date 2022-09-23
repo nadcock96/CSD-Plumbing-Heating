@@ -76,7 +76,7 @@ button {
 }
 button:hover {
     color: #1A3154;
-    background: gold;
+    background: white;
     transition: all 0.7s ease;
 }
 .column-right {
