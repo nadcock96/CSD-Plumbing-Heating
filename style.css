@@ -36,7 +36,7 @@ html {
     padding: 0 50px;
 }
 .main {
-    background: whitesmoke;
+    background: #1A3154;
 }
 .main-container {
     display: grid;
@@ -49,23 +49,27 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: black;
     padding: 0rem 2rem;
 }
+
 .column-left h1 {
     margin-bottom: 1rem;
     font-size: 3rem;
+    color: white;
 }
+
 .column-left p {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
+    color: white;
 }
+
 button {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: whitesmoke;
+    color: white;
     background: #1A3154;
     cursor: pointer;
     border-radius: 50px;
@@ -107,7 +111,8 @@ button:hover {
     height: 100%;
 }
 .navbar__links:hover {
-    color: gold;
+    color: white;
+    background-color: #1A3154;
     transition: all 0.3s ease;
 }
 .contact-container {
@@ -120,7 +125,7 @@ button:hover {
     padding: 20px 100px;
 }
 form {
-    background: whitesmoke;
+    background: #1A3154;
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
@@ -144,7 +149,7 @@ form input, form textarea {
 form button {
     padding: 15px;
     background: #1A3154;
-    color: whitesmoke;
+    color: white;
     font-size: 16px;
     border: 0;
     outline: none;
@@ -179,7 +184,7 @@ form button {
     }
 
     .navbar__menu.active {
-        background: whitesmoke;
+        background: white;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -197,7 +202,7 @@ form button {
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: black;
+        background: #706F6F;
     }
 
     .navbar__item {
